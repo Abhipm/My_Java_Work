@@ -1,0 +1,20 @@
+package ex;
+
+class DispOverLoad{
+	public void disp(char c){
+		System.out.println("The character is " + c);
+	}
+	public void disp(int i,char c){
+		System.out.println("The integer is "+i+ "The character is " + c);
+	}
+}
+public class Method_Overload {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         DispOverLoad obj = new DispOverLoad();
+         obj.disp('a');
+         obj.disp(20,'M');
+	}
+
+}
